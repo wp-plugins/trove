@@ -21,12 +21,12 @@ This plugin uses the [Trove API](http://trove.nla.gov.au/general/api) to embed O
 1. Download and extract the trove.zip file.
 2. Upload the `trove` directory to the `/wp-content/plugins/` directory
 3. Activate the plugin through the 'Plugins' menu in WordPress
-4. Place the shortcode `<?php do_action('plugin_name_hook'); ?>` in your templates
+
 
 
 = Shortcode =
-Place the shortcode [trove newspaper=<id>] in your blog post or page where you would like the text from the newspaper to appear.
-The <id> can be found from the URL of the article eg: to reproduce content from the article [http://trove.nla.gov.au/ndp/del/article/25225607](http://trove.nla.gov.au/ndp/del/article/25225607) you would use the following shortcode [trove newspaper=25225607].
+Place the shortcode [trove newspaper=ID] in your blog post or page where you would like the text from the newspaper to appear.
+The ID can be found from the URL of the article eg: to reproduce content from the article [http://trove.nla.gov.au/ndp/del/article/25225607](http://trove.nla.gov.au/ndp/del/article/25225607) you would use the following shortcode [trove newspaper=25225607].
 
 
 
