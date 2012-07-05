@@ -1,0 +1,32 @@
+blockquote.trove-newspaper {
+	border-top: 1px dotted #999;
+	border-bottom: 1px dotted #999;
+	padding: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-style: normal;
+}
+
+.trove-newspaper p.article-meta {
+	font-size: 0.8em;
+	text-align: right;
+}
+
+.trove-newspaper .article-title:after, .trove-newspaper .article-date:after {
+	content: ", ";
+}
+
+.trove-newspaper .article-page:before {
+	content: "page ";
+}
+
+.trove-newspaper p.article-heading {
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+	}
+
+.trove-newspaper cite {
+	font-size: 0.92em;
+	opacity: 0.8;
+}
